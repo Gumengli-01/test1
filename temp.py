@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 50
-x=np.linspace(0,3*np.pi,100)
+x=np.linspace(0,5*np.pi,100)
 y=np.sin(x)
 plt.rcParams['font.sans-serif']=['SimHei']
 plt.rcParams['axes.unicode_minus']=False
