@@ -7,7 +7,7 @@ Created on Wed May 19 10:43:50 2021
 
 import matplotlib.pyplot as plt #调用matplotlib库
 import numpy as np
-x=np.linspace(0,3*np.pi,100) #0代表初始值，3*np.pi代表最后的值
+x=np.linspace(0,8*np.pi,100) #0代表初始值，3*np.pi代表最后的值
 y=np.sin(x) #代表正弦波
 
 plt.rcParams['font.sans-serif']=['SimHei']#加上这句可以在图表中显示中文
